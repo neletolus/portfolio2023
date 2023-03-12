@@ -21,7 +21,7 @@ const TextEditor = (props: Props) => {
 
   return (
     <Window>
-      <WindowHeader>{props.name}</WindowHeader>
+      <WindowHeader title={props.name}></WindowHeader>
       <TextEditorContent>
         <ReactMarkdown>{terms}</ReactMarkdown>
       </TextEditorContent>

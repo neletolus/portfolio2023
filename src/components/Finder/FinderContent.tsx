@@ -18,6 +18,12 @@ const FinderContent = () => {
       </ContentHeaderWrapper>
       <LinkWrapper>
         <TextLink>About Me</TextLink>
+        <TextLink>Contact</TextLink>
+      </LinkWrapper>
+      <LinkWrapper>
+        <TextLink>Works(Dev)</TextLink>
+        <TextLink>Works(Music)</TextLink>
+        <TextLink>Works(Illust)</TextLink>
       </LinkWrapper>
     </>
   );

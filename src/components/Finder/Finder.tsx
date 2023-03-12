@@ -6,7 +6,7 @@ import FinderContent from "./FinderContent";
 const Finder = () => {
   return (
     <Window>
-      <WindowHeader>Information</WindowHeader>
+      <WindowHeader title={"Information"}></WindowHeader>
       <FinderContent></FinderContent>
     </Window>
   );

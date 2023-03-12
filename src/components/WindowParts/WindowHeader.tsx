@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import WindowCloseButton from "./WindowCloseButton";
 import WindowHeaderLines from "./WindowHeaderLines";
 
 interface Props {
-  children: React.ReactNode;
+  title: String;
 }
 
 const WindowHeader = (props: Props) => {
@@ -11,9 +12,9 @@ const WindowHeader = (props: Props) => {
     <Container>
       <WindowHeaderLines></WindowHeaderLines>
       <WindowCloseButtonWrapper>
-        <WindowCloseButton></WindowCloseButton>
+        <WindowCloseButton isClosable={true}></WindowCloseButton>
       </WindowCloseButtonWrapper>
-      <WindowTitle>{props.children}</WindowTitle>
+      <WindowTitle>{props.title}</WindowTitle>
     </Container>
   );
 };
@@ -35,14 +36,6 @@ const WindowCloseButtonWrapper = styled.div`
   left: 20px;
   background: #fff;
   padding: 0 4px;
-`;
-
-const WindowCloseButton = styled.div`
-  position: relative;
-  width: 27px;
-  height: 27px;
-  border: 2px solid #000;
-  background: #fff;
 `;
 
 const WindowTitle = styled.h2`

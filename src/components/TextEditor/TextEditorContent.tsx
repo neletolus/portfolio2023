@@ -12,8 +12,9 @@ const TextEditorContent = (props: Props) => {
 const Container = styled.div`
   position: relative;
   width: 100%;
-  height: auto;
+  height: calc(100% - 42px);
   padding: 10px;
+  overflow-y: scroll;
 `;
 
 export default TextEditorContent;

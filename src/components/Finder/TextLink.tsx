@@ -25,11 +25,14 @@ const TextLink = (props: Props) => {
 const TextLinkContent = styled.div`
   position: relative;
   display: inline-block;
-  margin-top: 45px;
+  margin-top: 60px;
 
   a {
     text-decoration: none;
     color: #000;
+    position: relative;
+    display: block;
+    width: 110px;
   }
 
   img {
@@ -41,6 +44,7 @@ const TextLinkContent = styled.div`
   p {
     line-height: 1;
     font-size: 16px;
+    text-align: center;
   }
   & + & {
     margin-left: 45px;
