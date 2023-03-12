@@ -1,13 +1,17 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Finder from "./components/Finder/Finder";
+import Layout from "./components/Layout";
+import AboutMe from "./pages/AboutMe";
 // We will create these two pages in a moment
 import HomePage from "./pages/HomePage";
-import UserPage from "./pages/UserPage";
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage></HomePage>} />
-      <Route path="/:id" element={<UserPage></UserPage>} />
-    </Routes>
+    <Layout>
+      <Finder></Finder>
+      <Routes>
+        <Route path="/" element={<HomePage></HomePage>} />
+        <Route path="/About Me" element={<AboutMe></AboutMe>} />
+      </Routes>
+    </Layout>
   );
 }
