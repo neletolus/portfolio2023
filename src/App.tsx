@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Dan from "./pages/Dan";
 // We will create these two pages in a moment
 import HomePage from "./pages/HomePage";
+import Ten from "./pages/Ten";
 import WorksDev from "./pages/WorksDev";
 import WorksIllust from "./pages/WorksIllust";
 import WorksMusic from "./pages/WorksMusic";
@@ -21,7 +22,7 @@ export default function App() {
         <Route path="/Works(Music)" element={<WorksMusic></WorksMusic>} />
         <Route path="/Works(Illust)" element={<WorksIllust></WorksIllust>} />
         <Route path="/dan" element={<Dan></Dan>}></Route>
-        <Route path="/ten" element={<HomePage></HomePage>}></Route>
+        <Route path="/ten" element={<Ten></Ten>}></Route>
       </Routes>
     </Layout>
   );

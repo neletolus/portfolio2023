@@ -1,18 +1,25 @@
 import styled from "styled-components";
 import AsideLink from "./AsideLink";
+import { useMediaQuery } from "react-responsive";
 
 const Aside = () => {
-  return (
-    <AsideContainer>
-      <AsideTop>
-        <AsideLink>dan</AsideLink>
-        <AsideLink>ten</AsideLink>
-      </AsideTop>
-      <AsideBottom>
-        <AsideLink>Exit Site</AsideLink>
-      </AsideBottom>
-    </AsideContainer>
-  );
+  const isDesktop: boolean = useMediaQuery({ query: "(min-width: 768px)" });
+
+  if (isDesktop) {
+    return (
+      <AsideContainer>
+        <AsideTop>
+          <AsideLink>dan</AsideLink>
+          <AsideLink>ten</AsideLink>
+        </AsideTop>
+        <AsideBottom>
+          <AsideLink>Exit Site</AsideLink>
+        </AsideBottom>
+      </AsideContainer>
+    );
+  } else {
+    return <></>;
+  }
 };
 
 const AsideContainer = styled.aside`

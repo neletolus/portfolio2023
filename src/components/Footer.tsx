@@ -1,20 +1,27 @@
 import styled from "styled-components";
 import twitterImg from "../images/twitter.png";
+import { useMediaQuery } from "react-responsive";
 
 const Footer = () => {
-  return (
-    <FooterContainer>
-      <FooterTop>
-        <SnsLink href="https://twitter.com/dev_yohei" target="_blank">
-          <SnsLogo src={twitterImg}></SnsLogo>
-          <SnsText>Twitter</SnsText>
-        </SnsLink>
-      </FooterTop>
-      <FooterBottom>
-        <CopyRight>© 2023 YoheiSuda</CopyRight>
-      </FooterBottom>
-    </FooterContainer>
-  );
+  const isDesktop: boolean = useMediaQuery({ query: "(min-width: 768px)" });
+
+  if (isDesktop) {
+    return (
+      <FooterContainer>
+        <FooterTop>
+          <SnsLink href="https://twitter.com/dev_yohei" target="_blank">
+            <SnsLogo src={twitterImg}></SnsLogo>
+            <SnsText>Twitter</SnsText>
+          </SnsLink>
+        </FooterTop>
+        <FooterBottom>
+          <CopyRight>© 2023 YoheiSuda</CopyRight>
+        </FooterBottom>
+      </FooterContainer>
+    );
+  } else {
+    return <></>;
+  }
 };
 
 const FooterContainer = styled.footer`

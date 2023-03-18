@@ -29,7 +29,7 @@ const HeaderInner = styled.div`
   display: flex;
   justify-content:flex-start;
   align-items: center;
-  padding-left: 44px;
+  padding-left: 20px;
 `;
 
 const Logo = styled.img`
@@ -42,6 +42,9 @@ const HeaderTitle = styled.h1`
   font-weight: 400;
   padding-left: 20px;
   letter-spacing: 0.05em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 `;
 
 export default Header;

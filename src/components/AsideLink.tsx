@@ -32,7 +32,7 @@ const AsideLink = (props: Props) => {
     return (
       <>
         <AsideLinkContent>
-          <a href="https://rogule.com/game.html">
+          <a href="https://www.nytimes.com/games/wordle/index.html">
             <img src={imageSrc} />
             <p>{props.children}</p>
           </a>

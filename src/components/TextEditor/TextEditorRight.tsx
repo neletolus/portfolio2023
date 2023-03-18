@@ -33,12 +33,14 @@ const Window = styled.div`
   position: absolute;
   display: block;
   background: #fff;
-  top: 100px;
-  right: 200px;
+  top: 5%;
+  right: 15%;
   width: 600px;
-  height: 800px;
+  height: 85%;
+  max-height: 800px;
   border: 2px solid #000000;
   box-shadow: 4px 4px 0px #000000;
+  z-index: 3;
 `;
 
 export default TextEditorRight;
