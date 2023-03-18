@@ -6,7 +6,7 @@
 - 応用情報技術者試験
 - Oracle認定JavaSE8 Silver
 
-### Work History
+### 職歴
 - 株式会社Pksha Associates >>[link](https://asc.pkshatech.com/)
   - 2022/01/01 ~ 
   - ソフトウェアエンジニア(Java/Kotlin/たまにJavascript)
