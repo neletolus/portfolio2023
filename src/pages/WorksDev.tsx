@@ -1,5 +1,5 @@
 import TextEditor from "../components/TextEditor/TextEditor";
-import mdPath from "./markdown/AboutMe.md";
+import mdPath from "./markdown/WorksDev.md";
 
 const WorksDev = () => {
   const description = mdPath;

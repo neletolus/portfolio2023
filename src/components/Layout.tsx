@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import styled from "styled-components";
 import bgImg from "../images/bg.png";
+import Aside from "./Aside";
 
 interface Props {
   children: React.ReactNode;
@@ -10,10 +12,10 @@ interface Props {
 const Layout = (props: Props) => {
   return (
     <Container>
-      <div>
-        <Header></Header>
-      </div>
+      <Header></Header>
       <main>{props.children}</main>
+      <Aside></Aside>
+      <Footer></Footer>
     </Container>
   );
 };

@@ -19,6 +19,8 @@ export default function App() {
         <Route path="/Works(Dev)" element={<WorksDev></WorksDev>} />
         <Route path="/Works(Music)" element={<WorksMusic></WorksMusic>} />
         <Route path="/Works(Illust)" element={<WorksIllust></WorksIllust>} />
+        <Route path="/dan" element={<HomePage></HomePage>}></Route>
+        <Route path="/ten" element={<HomePage></HomePage>}></Route>
       </Routes>
     </Layout>
   );

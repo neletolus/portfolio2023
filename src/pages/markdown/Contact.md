@@ -1,7 +1,4 @@
-Lately I have been using Twitter only.
-
-
-Please contact me by DM.
+直のご相談はTwitterまで
 
 
 [Twitter](https://twitter.com/dev_yohei)
