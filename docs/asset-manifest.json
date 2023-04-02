@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2023/static/css/main.bd4cec91.css",
-    "main.js": "/portfolio2023/static/js/main.bc7c5952.js",
+    "main.js": "/portfolio2023/static/js/main.4676fce6.js",
     "static/media/DotGothic16-Regular.woff": "/portfolio2023/static/media/DotGothic16-Regular.fcf557ac31502ba25454.woff",
     "static/media/WorksDev.md": "/portfolio2023/static/media/WorksDev.9acc36f5ce1ac0f738ba.md",
     "static/media/AboutMe.md": "/portfolio2023/static/media/AboutMe.5044411c941bd6af99f0.md",
@@ -9,13 +9,11 @@
     "static/media/Ten.md": "/portfolio2023/static/media/Ten.48398207037c460b0b64.md",
     "static/media/Dan.md": "/portfolio2023/static/media/Dan.a460a6757094816537b3.md",
     "static/media/Contact.md": "/portfolio2023/static/media/Contact.37b34e166d545c4a2b83.md",
-    "static/media/WorksIllust.md": "/portfolio2023/static/media/WorksIllust.066a43b5e9f9070f4d33.md",
-    "static/media/WorksMusic.md": "/portfolio2023/static/media/WorksMusic.6bfafd178950f6907d1c.md",
     "main.bd4cec91.css.map": "/portfolio2023/static/css/main.bd4cec91.css.map",
-    "main.bc7c5952.js.map": "/portfolio2023/static/js/main.bc7c5952.js.map"
+    "main.4676fce6.js.map": "/portfolio2023/static/js/main.4676fce6.js.map"
   },
   "entrypoints": [
     "static/css/main.bd4cec91.css",
-    "static/js/main.bc7c5952.js"
+    "static/js/main.4676fce6.js"
   ]
 }
