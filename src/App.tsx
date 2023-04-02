@@ -8,8 +8,6 @@ import Dan from "./pages/Dan";
 import HomePage from "./pages/HomePage";
 import Ten from "./pages/Ten";
 import WorksDev from "./pages/WorksDev";
-import WorksIllust from "./pages/WorksIllust";
-import WorksMusic from "./pages/WorksMusic";
 export default function App() {
   return (
     <Layout>
@@ -19,8 +17,6 @@ export default function App() {
         <Route path="/About Me" element={<AboutMe></AboutMe>} />
         <Route path="/Contact" element={<Contact></Contact>} />
         <Route path="/Works(Dev)" element={<WorksDev></WorksDev>} />
-        <Route path="/Works(Music)" element={<WorksMusic></WorksMusic>} />
-        <Route path="/Works(Illust)" element={<WorksIllust></WorksIllust>} />
         <Route path="/dan" element={<Dan></Dan>}></Route>
         <Route path="/ten" element={<Ten></Ten>}></Route>
       </Routes>

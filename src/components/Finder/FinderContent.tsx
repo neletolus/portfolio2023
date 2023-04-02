@@ -15,7 +15,7 @@ const FinderContent = () => {
       <>
         <ContentHeaderWrapper>
           <ContentHeaderInformations>
-            <ContentHeaderParagraph>5 items</ContentHeaderParagraph>
+            <ContentHeaderParagraph>3 items</ContentHeaderParagraph>
             <ContentHeaderParagraph>Something in disk</ContentHeaderParagraph>
             <ContentHeaderParagraph>All available</ContentHeaderParagraph>
           </ContentHeaderInformations>
@@ -26,8 +26,6 @@ const FinderContent = () => {
         </LinkWrapper>
         <LinkWrapper>
           <TextLink>Works(Dev)</TextLink>
-          <TextLink>Works(Music)</TextLink>
-          <TextLink>Works(Illust)</TextLink>
         </LinkWrapper>
       </>
     );
