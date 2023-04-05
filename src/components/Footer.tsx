@@ -9,10 +9,10 @@ const Footer = () => {
     return (
       <FooterContainer>
         <FooterTop>
-          <SnsLink href="https://twitter.com/dev_yohei" target="_blank">
+          {/* <SnsLink href="https://twitter.com/dev_yohei" target="_blank">
             <SnsLogo src={twitterImg}></SnsLogo>
             <SnsText>Twitter</SnsText>
-          </SnsLink>
+          </SnsLink> */}
         </FooterTop>
         <FooterBottom>
           <CopyRight>© 2023 YoheiSuda</CopyRight>
